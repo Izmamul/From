@@ -10,40 +10,36 @@
 <body>
     <div class="container">
         <header>Registration From</header>
-
         <form action="#">
             <div class="form">
                 <div class="details personal">
                     <span class="title">Personal Details</span>
-
                     <div class="fields">
                         <div class="input-field">
                             <label>Full Name</label>
                             <input type="text" placeholder="Enter your name" required>
                         </div>
-
                         <div class="input-field">
                             <label>Date of Birth</label>
                             <input type="date" placeholder="Enter birth date" required>
                         </div>
-
                         <div class="input-field">
                             <label>Email</label>
                             <input type="text" placeholder="Enter your email" required>
                         </div>
-
                         <div class="input-field">
                             <label>Mobile Number</label>
                             <input type="number" placeholder="Enter mobile number" required>
                         </div>
-
                         <div class="input-field">
                             <label>Gender</label>
+                            <select required>    <!-- The select is missing, now I am added it, and this works fine -->
+                                <option disabled selected> Select gender </option>
                                 <option>Male</option>
                                 <option>Female</option>
                                  <option>Others</option>
+                                <select>
                         </div>
-
                         <div class="input-field">
                             <label>Occupation</label>
                             <input type="text" placeholder="Enter your ccupation" required>
@@ -52,42 +48,34 @@
                 </div>
                       <div class="details address">
                     <span class="title">Address Details</span>
-
                     <div class="fields">
                         <div class="input-field">
                             <label>Address Type</label>
                             <input type="text" placeholder="Permanent or Temporary" required>
                         </div>
-
                         <div class="input-field">
                             <label>Nationality</label>
                             <input type="text" placeholder="Enter nationality" required>
                         </div>
-
                         <div class="input-field">
                             <label>State</label>
                             <input type="text" placeholder="Enter your state" required>
                         </div>
-
                         <div class="input-field">
                             <label>District</label>
                             <input type="text" placeholder="Enter your district" required>
                         </div>
-
                         <div class="input-field">
                             <label>Block Number</label>
                             <input type="number" placeholder="Enter block number" required>
                         </div>
-
                         <div class="input-field">
                             <label>Ward Number</label>
                             <input type="number" placeholder="Enter ward number" required>
                         </div>
                     </div>
-
                     <button class="nextBtn">
                         <span class="btnText">Sumbit</span>
-                        
                     </button>
                 </div> 
 
